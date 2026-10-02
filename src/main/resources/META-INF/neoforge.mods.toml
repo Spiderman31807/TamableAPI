@@ -1,0 +1,54 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="tamable_api"
+version="1.0.0"
+displayName="TamableAPI"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Spiderman31807"
+authors="Spiderman31807"
+description="A Utility API that set ups alot of the generic code used for Taming, Breeding or Aging, which can be applied to any Entity that extends the `Mob` class with nothing more than an interface!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+[[mixins]]
+config="mixin.tamable.api.json"
+# End of user code block custom mixins
+
+[[dependencies.tamable_api]]
+modId="neoforge"
+type="required"
+versionRange="[21.8.31,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tamable_api]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.8]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tamable_api]]
+modId="goals_injector"
+type="required"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.tamable_api]]
+modId="attachments_api"
+type="required"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

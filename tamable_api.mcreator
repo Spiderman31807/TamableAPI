@@ -1,0 +1,308 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tamable",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tamable",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/Tamable.java"
+        ]
+      }
+    },
+    {
+      "name": "MobMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/MobMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Collarable",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "collarable",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/Collarable.java"
+        ]
+      }
+    },
+    {
+      "name": "TamablePanicGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tamable_panic_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/TamablePanicGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "FollowOwnerGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "follow_owner_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/FollowOwnerGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "SitWhenOrderedToGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sit_when_ordered_to_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/SitWhenOrderedToGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "OwnerHurtByTargetGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "owner_hurt_by_target_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/OwnerHurtByTargetGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "OwnerHurtTargetGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "owner_hurt_target_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/OwnerHurtTargetGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "Events",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "events",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/Events.java"
+        ]
+      }
+    },
+    {
+      "name": "NonTameRandomTargetGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "non_tame_random_target_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/NonTameRandomTargetGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "NearestAttackableTargetGoalMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nearest_attackable_target_goal_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/NearestAttackableTargetGoalMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "MonsterMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "monster_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/MonsterMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Breedable",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "breedable",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/Breedable.java"
+        ]
+      }
+    },
+    {
+      "name": "BreedingSpawnEvent",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "breeding_spawn_event",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/BreedingSpawnEvent.java"
+        ]
+      }
+    },
+    {
+      "name": "Ageable",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ageable",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/Ageable.java"
+        ]
+      }
+    },
+    {
+      "name": "BreedGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "breed_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/BreedGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "LivingEntityRendererMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "living_entity_renderer_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/LivingEntityRendererMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "HasBabyModel",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "has_baby_model",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/HasBabyModel.java"
+        ]
+      }
+    },
+    {
+      "name": "ZombieMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombie_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/ZombieMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "PiglinMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "piglin_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/PiglinMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "HoglinMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hoglin_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/HoglinMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ZoglinMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zoglin_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/sxs/api/tamable/ZoglinMixin.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/sxs/api/tamable/TamableApiMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tamable_api",
+    "modName": "TamableAPI",
+    "version": "1.0.0",
+    "description": "A Utility API that set ups alot of the generic code used for Taming, Breeding or Aging, which can be applied to any Entity that extends the `Mob` class with nothing more than an interface!",
+    "author": "Spiderman31807",
+    "websiteURL": "www.curseforge.com/minecraft/mc-mods/tamable-api",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "sxs",
+    "requiredMods": [
+      "goals_injector",
+      "attachments_api"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "sxs.api.tamable"
+  },
+  "mcreatorVersion": 202600233518
+}

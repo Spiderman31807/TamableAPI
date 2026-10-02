@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 81,
+    "description": "A Utility API that set ups alot of the generic code used for Taming, Breeding or Aging, which can be applied to any Entity that extends the `Mob` class with nothing more than an interface!"
+  }
+}

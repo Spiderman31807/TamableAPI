@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "sxs.api.tamable.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MobMixin",
+    "MonsterMixin",
+    "NearestAttackableTargetGoalMixin",
+    "ZombieMixin",
+    "HoglinMixin",
+    "ZoglinMixin",
+    "PiglinMixin"
+  ],
+  "client": [ "LivingEntityRendererMixin" ],
+  "minVersion": "0.8"
+}
